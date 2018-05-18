@@ -6,10 +6,10 @@ pipeline {
         echo 'Done'
       }
     }
-    stage('') {
+    stage('error') {
       steps {
         waitUntil() {
-          sleep 100
+          sleep 10
         }
 
       }
